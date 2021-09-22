@@ -14,6 +14,10 @@ import com.jmehta.repository.TeamRepository;
 @RestController
 public class TeamController {
 	
+	/*
+	 * I used autowired for injecting repo
+	 */
+	
 	@Autowired
 	private TeamRepository teamRepo;
 	
